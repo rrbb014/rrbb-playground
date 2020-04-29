@@ -2,20 +2,39 @@ package main
 
 import (
 	"fmt"
+	"log"
 )
 
-var meterPerLiter float64
 
-func paintNeeded(width float64, height float64) float64 {
+func paintNeeded(width float64, height float64) (float64, error) {
+	if width < 0 {
+		return 0, fmt.Errorf("a width %0.2f is invalid", width)
+	}
+	if height < 0 {
+        return 0, fmt.Errorf("a height %0.2f is invalid", height)
+	}
 	area := width * height
 	//fmt.Printf("%.2f liters needed\n", area/10.0)
-	return area / meterPerLiter
+	return area / 10.0, nil
+}
+
+func catchError(err error) {
+	if err != nil {
+        log.Fatal(err)
+	}
 }
 
 func main() {
-	meterPerLiter = 10.0
-	fmt.Printf("%.2f", paintNeeded(4.2, 3.0))
-	//fmt.Println(area)    // area's variable scope는 paintNeeded 함수 내부라서 에러
-	paintNeeded(5.2, 3.5)
-	paintNeeded(5.0, 3.3)
+	var amount, total float64
+	amount, err := paintNeeded(4.2, -3.0)
+	catchError(err)
+	amount, err = paintNeeded(4.2, 3.0)
+	catchError(err)
+	fmt.Printf("%0.2f liters needed\n", amount)
+	total += amount
+	amount, err = paintNeeded(5.2, 3.5)
+	catchError(err)
+	fmt.Printf("%0.2f liters needed\n", amount)
+	total += amount
+	fmt.Printf("Total: %0.2f liters\n", total)
 }
