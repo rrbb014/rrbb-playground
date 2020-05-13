@@ -2,16 +2,24 @@
 package main
 
 import (
+	//"bufio"
 	"bufio"
 	"fmt"
 	"log"
-	"os"
 	"strconv"
 	"strings"
+
+	//"log"
+	"os"
+	//"strconv"
+	//"strings"
+	"keyboard"
 )
 
-func main() {
-	fmt.Println("Enter a grade: ")
+func deprecated() {
+	// Since chapter4's keyboard package stored stdin function,
+	// It need to recycle function. user/user/go/src/keyboard/keyboard.go
+
 	reader := bufio.NewReader(os.Stdin)
 	// 1st option: Use blank identifier("_")
 	//input, _ := reader.ReadString('\n')
@@ -26,12 +34,21 @@ func main() {
 	if err != nil {
 		log.Fatal(err)
 	}
+	fmt.Println(grade)
+}
 
-	var status string 
+func main() {
+	fmt.Print("Enter a grade: ")
+	grade, err := keyboard.GetFloat()
+	if err != nil {
+		log.Fatal(err)
+	}
+
+	var status string
 	if grade >= 60 {
 		status = "passing"
 	} else {
 		status = "failed"
 	}
-	fmt.Println(status)
+	fmt.Println("A grade of", grade, "is", status)
 }

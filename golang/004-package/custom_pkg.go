@@ -1,8 +1,9 @@
 package main
 
-import ("greeting")
+import (
+	"greeting"
+)
 
 func main() {
-	greeting.Hello()
+	greeting.AllGreetings()
 }
-
