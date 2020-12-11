@@ -1,0 +1,152 @@
+[I 09:06:11.438 NotebookApp] Serving notebooks from local directory: /home/rrbb/code/git-repo/rrbb-playground/ml/pytorch/cookbook
+[I 09:06:11.438 NotebookApp] Jupyter Notebook 6.1.5 is running at:
+[I 09:06:11.438 NotebookApp] http://localhost:8888/?token=4481f30b628f17f4c366f406458769baf278120a0f6ccac9
+[I 09:06:11.438 NotebookApp]  or http://127.0.0.1:8888/?token=4481f30b628f17f4c366f406458769baf278120a0f6ccac9
+[I 09:06:11.438 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[C 09:06:11.472 NotebookApp] 
+    
+    To access the notebook, open this file in a browser:
+        file:///home/rrbb/.local/share/jupyter/runtime/nbserver-7576-open.html
+    Or copy and paste one of these URLs:
+        http://localhost:8888/?token=4481f30b628f17f4c366f406458769baf278120a0f6ccac9
+     or http://127.0.0.1:8888/?token=4481f30b628f17f4c366f406458769baf278120a0f6ccac9
+[I 09:06:28.686 NotebookApp] Kernel started: f7204104-3fb9-4323-b485-e6fc2345b7aa, name: python3
+[I 09:06:59.008 NotebookApp] Kernel started: 4bbaf393-848e-40f7-bdc0-ef85a253cbee, name: python3
+[I 09:08:28.682 NotebookApp] Saving file at /ConditionalGAN.ipynb
+[I 09:10:28.674 NotebookApp] Saving file at /ConditionalGAN.ipynb
+[I 09:11:47.486 NotebookApp] Creating new notebook in 
+[I 09:11:48.351 NotebookApp] Kernel started: 7f62d0e2-6fce-4a95-a40c-618023ab803d, name: python3
+[I 09:12:29.327 NotebookApp] Saving file at /ConditionalGAN.ipynb
+[I 09:13:48.351 NotebookApp] Saving file at /DQN.ipynb
+[I 09:14:29.326 NotebookApp] Saving file at /ConditionalGAN.ipynb
+[I 09:15:48.350 NotebookApp] Saving file at /DQN.ipynb
+[I 09:16:29.327 NotebookApp] Saving file at /ConditionalGAN.ipynb
+[I 09:17:48.350 NotebookApp] Saving file at /DQN.ipynb
+[I 09:18:29.327 NotebookApp] Saving file at /ConditionalGAN.ipynb
+[I 09:20:29.326 NotebookApp] Saving file at /ConditionalGAN.ipynb
+[I 09:21:48.350 NotebookApp] Saving file at /DQN.ipynb
+[I 09:22:29.326 NotebookApp] Saving file at /ConditionalGAN.ipynb
+[I 09:23:48.352 NotebookApp] Saving file at /DQN.ipynb
+[I 09:24:29.327 NotebookApp] Saving file at /ConditionalGAN.ipynb
+[I 09:25:48.350 NotebookApp] Saving file at /DQN.ipynb
+[I 09:26:29.326 NotebookApp] Saving file at /ConditionalGAN.ipynb
+[I 09:28:29.326 NotebookApp] Saving file at /ConditionalGAN.ipynb
+[I 09:30:29.326 NotebookApp] Saving file at /ConditionalGAN.ipynb
+[I 09:32:29.328 NotebookApp] Saving file at /ConditionalGAN.ipynb
+[I 09:34:29.326 NotebookApp] Saving file at /ConditionalGAN.ipynb
+[I 09:35:48.350 NotebookApp] Saving file at /DQN.ipynb
+[I 09:36:29.327 NotebookApp] Saving file at /ConditionalGAN.ipynb
+[I 09:37:48.350 NotebookApp] Saving file at /DQN.ipynb
+[I 09:38:29.326 NotebookApp] Saving file at /ConditionalGAN.ipynb
+[I 09:40:29.324 NotebookApp] Saving file at /ConditionalGAN.ipynb
+[I 09:42:29.327 NotebookApp] Saving file at /ConditionalGAN.ipynb
+[I 09:43:48.350 NotebookApp] Saving file at /DQN.ipynb
+[I 09:44:29.326 NotebookApp] Saving file at /ConditionalGAN.ipynb
+[I 09:45:49.327 NotebookApp] Saving file at /DQN.ipynb
+[I 09:46:29.327 NotebookApp] Saving file at /ConditionalGAN.ipynb
+[I 09:47:48.351 NotebookApp] Saving file at /DQN.ipynb
+[I 09:48:29.328 NotebookApp] Saving file at /ConditionalGAN.ipynb
+[I 09:49:48.350 NotebookApp] Saving file at /DQN.ipynb
+[I 09:50:29.327 NotebookApp] Saving file at /ConditionalGAN.ipynb
+[I 09:51:49.407 NotebookApp] Saving file at /DQN.ipynb
+[I 09:52:29.375 NotebookApp] Saving file at /ConditionalGAN.ipynb
+[I 09:53:48.392 NotebookApp] Saving file at /DQN.ipynb
+[I 09:54:29.327 NotebookApp] Saving file at /ConditionalGAN.ipynb
+[I 09:55:48.353 NotebookApp] Saving file at /DQN.ipynb
+[I 09:56:29.325 NotebookApp] Saving file at /ConditionalGAN.ipynb
+[I 09:58:29.326 NotebookApp] Saving file at /ConditionalGAN.ipynb
+[I 10:00:29.326 NotebookApp] Saving file at /ConditionalGAN.ipynb
+[I 10:02:29.327 NotebookApp] Saving file at /ConditionalGAN.ipynb
+[I 10:04:29.327 NotebookApp] Saving file at /ConditionalGAN.ipynb
+[I 10:06:29.334 NotebookApp] Saving file at /ConditionalGAN.ipynb
+[I 10:08:29.327 NotebookApp] Saving file at /ConditionalGAN.ipynb
+[I 10:10:29.327 NotebookApp] Saving file at /ConditionalGAN.ipynb
+[I 10:12:28.674 NotebookApp] Saving file at /ConditionalGAN.ipynb
+[I 10:14:28.674 NotebookApp] Saving file at /ConditionalGAN.ipynb
+[I 10:16:28.674 NotebookApp] Saving file at /ConditionalGAN.ipynb
+[I 10:18:28.674 NotebookApp] Saving file at /ConditionalGAN.ipynb
+[I 10:20:29.328 NotebookApp] Saving file at /ConditionalGAN.ipynb
+[I 10:21:48.352 NotebookApp] Saving file at /DQN.ipynb
+[I 10:22:29.328 NotebookApp] Saving file at /ConditionalGAN.ipynb
+[I 10:23:48.351 NotebookApp] Saving file at /DQN.ipynb
+[I 10:24:29.327 NotebookApp] Saving file at /ConditionalGAN.ipynb
+[I 10:25:48.352 NotebookApp] Saving file at /DQN.ipynb
+[I 10:26:29.326 NotebookApp] Saving file at /ConditionalGAN.ipynb
+[I 10:27:48.414 NotebookApp] Saving file at /DQN.ipynb
+[I 10:28:29.383 NotebookApp] Saving file at /ConditionalGAN.ipynb
+[I 10:29:48.403 NotebookApp] Saving file at /DQN.ipynb
+[I 10:30:29.357 NotebookApp] Saving file at /ConditionalGAN.ipynb
+[I 10:31:48.352 NotebookApp] Saving file at /DQN.ipynb
+[I 10:32:29.327 NotebookApp] Saving file at /ConditionalGAN.ipynb
+[I 10:34:29.348 NotebookApp] Saving file at /ConditionalGAN.ipynb
+[I 10:36:29.327 NotebookApp] Saving file at /ConditionalGAN.ipynb
+[I 10:38:29.346 NotebookApp] Saving file at /ConditionalGAN.ipynb
+[I 10:40:29.329 NotebookApp] Saving file at /ConditionalGAN.ipynb
+[I 10:42:29.351 NotebookApp] Saving file at /ConditionalGAN.ipynb
+[I 10:44:29.326 NotebookApp] Saving file at /ConditionalGAN.ipynb
+[I 10:45:48.352 NotebookApp] Saving file at /DQN.ipynb
+[I 10:46:29.331 NotebookApp] Saving file at /ConditionalGAN.ipynb
+[I 10:46:55.327 NotebookApp] Starting buffering for 7f62d0e2-6fce-4a95-a40c-618023ab803d:aa411b44159b445495205b098bb07451
+[I 10:46:55.332 NotebookApp] Kernel shutdown: 7f62d0e2-6fce-4a95-a40c-618023ab803d
+[I 10:48:28.685 NotebookApp] Saving file at /ConditionalGAN.ipynb
+[I 10:48:59.327 NotebookApp] Saving file at /GAN.ipynb
+[I 10:50:28.675 NotebookApp] Saving file at /ConditionalGAN.ipynb
+[I 10:52:28.674 NotebookApp] Saving file at /ConditionalGAN.ipynb
+[I 10:54:28.675 NotebookApp] Saving file at /ConditionalGAN.ipynb
+[I 10:56:28.674 NotebookApp] Saving file at /ConditionalGAN.ipynb
+[I 10:58:28.674 NotebookApp] Saving file at /ConditionalGAN.ipynb
+[I 11:00:28.675 NotebookApp] Saving file at /ConditionalGAN.ipynb
+[I 11:02:28.675 NotebookApp] Saving file at /ConditionalGAN.ipynb
+[I 11:04:28.675 NotebookApp] Saving file at /ConditionalGAN.ipynb
+[I 11:06:28.674 NotebookApp] Saving file at /ConditionalGAN.ipynb
+[I 11:08:29.328 NotebookApp] Saving file at /ConditionalGAN.ipynb
+[I 11:10:29.327 NotebookApp] Saving file at /ConditionalGAN.ipynb
+[I 11:12:29.328 NotebookApp] Saving file at /ConditionalGAN.ipynb
+[I 11:14:29.328 NotebookApp] Saving file at /ConditionalGAN.ipynb
+[I 12:38:19.521 NotebookApp] Starting buffering for 4bbaf393-848e-40f7-bdc0-ef85a253cbee:68aa48884aa34fb88dd502cb551ec58c
+[I 12:38:19.528 NotebookApp] Kernel shutdown: 4bbaf393-848e-40f7-bdc0-ef85a253cbee
+[I 12:38:23.284 NotebookApp] Starting buffering for f7204104-3fb9-4323-b485-e6fc2345b7aa:7327c44ce81d4760a83cb5127d286b99
+[I 12:38:23.291 NotebookApp] Kernel shutdown: f7204104-3fb9-4323-b485-e6fc2345b7aa
+[I 12:38:25.162 NotebookApp] Saving file at /ConditionalGAN.ipynb
+[W 12:38:45.447 NotebookApp] 404 POST /api/kernels/f7204104-3fb9-4323-b485-e6fc2345b7aa/interrupt (127.0.0.1): Kernel does not exist: f7204104-3fb9-4323-b485-e6fc2345b7aa
+[W 12:38:45.448 NotebookApp] Kernel does not exist: f7204104-3fb9-4323-b485-e6fc2345b7aa
+[W 12:38:45.448 NotebookApp] 404 POST /api/kernels/f7204104-3fb9-4323-b485-e6fc2345b7aa/interrupt (127.0.0.1) 2.55ms referer=http://localhost:8888/notebooks/ConditionalGAN.ipynb
+[E 12:38:46.979 NotebookApp] Exception restarting kernel
+    Traceback (most recent call last):
+      File "/home/rrbb/.pyenv/versions/3.7.6/envs/torch/lib/python3.7/site-packages/notebook/services/kernels/handlers.py", line 83, in post
+        yield maybe_future(km.restart_kernel(kernel_id))
+      File "/home/rrbb/.pyenv/versions/3.7.6/envs/torch/lib/python3.7/site-packages/tornado/gen.py", line 762, in run
+        value = future.result()
+      File "/home/rrbb/.pyenv/versions/3.7.6/envs/torch/lib/python3.7/site-packages/notebook/services/kernels/kernelmanager.py", line 309, in restart_kernel
+        self._check_kernel_id(kernel_id)
+      File "/home/rrbb/.pyenv/versions/3.7.6/envs/torch/lib/python3.7/site-packages/notebook/services/kernels/kernelmanager.py", line 387, in _check_kernel_id
+        raise web.HTTPError(404, u'Kernel does not exist: %s' % kernel_id)
+    tornado.web.HTTPError: HTTP 404: Not Found (Kernel does not exist: f7204104-3fb9-4323-b485-e6fc2345b7aa)
+[E 12:38:46.983 NotebookApp] {
+      "Host": "localhost:8888",
+      "Connection": "keep-alive",
+      "Content-Length": "0",
+      "Accept": "application/json, text/javascript, */*; q=0.01",
+      "X-Requested-With": "XMLHttpRequest",
+      "X-Xsrftoken": "2|c3689eb9|72b762027d8b7f897530bf42993dde87|1605774525",
+      "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.111 Safari/537.36",
+      "Origin": "http://localhost:8888",
+      "Sec-Fetch-Site": "same-origin",
+      "Sec-Fetch-Mode": "cors",
+      "Sec-Fetch-Dest": "empty",
+      "Referer": "http://localhost:8888/notebooks/ConditionalGAN.ipynb",
+      "Accept-Encoding": "gzip, deflate, br",
+      "Accept-Language": "ko-KR,ko;q=0.9,en-US;q=0.8,en;q=0.7,ja;q=0.6",
+      "Cookie": "_xsrf=2|c3689eb9|72b762027d8b7f897530bf42993dde87|1605774525; username-localhost-8888=\"2|1:0|10:1606435579|23:username-localhost-8888|44:ZjU3YmUxNjA5YjI1NGQxNDkzOTcwZWUxZWJiYjFjYWM=|0436bf2ef76be69157dccbe60a793b8234f688c8070a88c06cc76441599abdc7\""
+    }
+[E 12:38:46.983 NotebookApp] 500 POST /api/kernels/f7204104-3fb9-4323-b485-e6fc2345b7aa/restart (127.0.0.1) 5.88ms referer=http://localhost:8888/notebooks/ConditionalGAN.ipynb
+[W 12:38:46.999 NotebookApp] 404 DELETE /api/sessions/994f4f1a-d783-47c1-b4ef-92f0f9df13d2 (127.0.0.1): Session not found: session_id='994f4f1a-d783-47c1-b4ef-92f0f9df13d2'
+[W 12:38:46.999 NotebookApp] Session not found: session_id='994f4f1a-d783-47c1-b4ef-92f0f9df13d2'
+[W 12:38:46.999 NotebookApp] 404 DELETE /api/sessions/994f4f1a-d783-47c1-b4ef-92f0f9df13d2 (127.0.0.1) 1.71ms referer=http://localhost:8888/notebooks/ConditionalGAN.ipynb
+[I 12:38:47.016 NotebookApp] Kernel started: 26a9faf0-7ecf-4c0a-a5df-82bdcbed9bf7, name: python3
+[I 12:40:18.131 NotebookApp] Saving file at /ConditionalGAN.ipynb
+[I 12:40:20.150 NotebookApp] Starting buffering for 26a9faf0-7ecf-4c0a-a5df-82bdcbed9bf7:7327c44ce81d4760a83cb5127d286b99
+[I 12:40:20.161 NotebookApp] Kernel shutdown: 26a9faf0-7ecf-4c0a-a5df-82bdcbed9bf7
+[I 12:40:31.282 NotebookApp] Shutting down on /api/shutdown request.
+[I 12:40:31.283 NotebookApp] Shutting down 0 kernels
+[I 12:40:31.283 NotebookApp] Shutting down 0 terminals
