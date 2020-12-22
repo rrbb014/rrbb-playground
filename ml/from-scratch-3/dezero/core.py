@@ -4,6 +4,7 @@
 import weakref
 import contextlib
 import numpy as np
+import dezero
 
 def as_array(x):
     if np.isscalar(x):
@@ -14,7 +15,6 @@ def as_variable(obj):
     if isinstance(obj, Variable):
         return obj
     return Variable(obj)
-
 
 class Config:
     enable_backprop = True
@@ -43,6 +43,8 @@ class Variable:
     
     def __init__(self, data, name=None):
         if data is not None:
+            if isinstance(data, Variable):
+                data = data.data
             if not isinstance(data, np.ndarray):
                 raise TypeError("{}은(는) 지원하지 않습니다.".format(type(data)))
 
@@ -68,13 +70,17 @@ class Variable:
     def dtype(self):
         return self.data.dtype
 
+    @property
+    def T(self):
+        return dezero.functions.transpose(self)
+
     def __len__(self):
         return len(self.data)
     
     def __repr__(self):
         if self.data is None:
             return 'Variable(None)'
-        p = str(self.data).replace('\n', '\n'+' ' * 13)
+        p = str(self.data).replace('\n', '\n'+ ' ' * 9)
         return 'Variable(' + p + ')'
 
     def clear_grad(self):
@@ -121,7 +127,17 @@ class Variable:
             if not retain_grad:
                 for y in f.outputs:
                     y().grad = None    # y 는 weakref
-                    
+
+    def reshape(self, *shape):
+        if len(shape) == 1 and isinstance(shape[0], (tuple, list)):
+            shape = shape[0]
+        return dezero.functions.reshape(self, shape)
+
+    def transpose(self):
+        return dezero.functions.transpose(self)
+
+    def sum(self, axis=None, keepdims=False):
+        return dezero.functions.sum(self, axis, keepdims)
 
 
 # For jupyter notebook
@@ -155,11 +171,16 @@ class Function:
 
 class Add(Function):
     def forward(self, x0, x1):
+        self.x0_shape, self.x1_shape = x0.shape, x1.shape
         y = x0 + x1
         return y
 
     def backward(self, gy):
-        return gy, gy
+        gx0, gx1 = gy, gy
+        if self.x0_shape != self.x1_shape:
+            gx0 = dezero.functions.sum_to(gx0, self.x0_shape)
+            gx1 = dezero.functions.sum_to(gx1, self.x1_shape)
+        return gx0, gx1
 
 
 class Mul(Function):
@@ -180,14 +201,6 @@ class Square(Function):
         gx = 2 * x * gy
         return gx
     
-class Exp(Function):
-    def forward(self, x):
-        return np.exp(x)
-    
-    def backward(self, gy):
-        x = self.inputs
-        gx = np.exp(x) * gy
-        return gx
     
 class Neg(Function):
     def forward(self, x):
@@ -233,9 +246,6 @@ class Pow(Function):
 def square(x):
     return Square()(x)
 
-def exp(x):
-    return Exp()(x)
-
 def add(x0, x1):
     x1 = as_array(x1)
     return Add()(x0, x1)
@@ -277,3 +287,7 @@ def setup_variable():
     Variable.__truediv__   = div
     Variable.__rtruediv__ = rdiv
     Variable.__pow__ = pow
+    Variable.__getitem__ = dezero.functions.get_item
+
+class Parameter(Variable):
+    pass
